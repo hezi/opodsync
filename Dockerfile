@@ -18,4 +18,4 @@ EXPOSE 8080
 VOLUME ["/var/www/server/data"]
 
 ENV PHP_CLI_SERVER_WORKERS=2
-CMD ["php", "-S", "0.0.0.0:8080", "-t", "server", "server/index.php"]
+CMD ["php", "-S", "0.0.0.0:8081", "-t", "server", "server/index.php"]
